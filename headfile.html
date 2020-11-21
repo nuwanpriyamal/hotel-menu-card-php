@@ -1,0 +1,27 @@
+<!--HTML document to define the layout of the header and the navigation bar-->
+<div id="container">
+
+<div id="navigation">
+<ul>
+
+<?php
+if(!isset($_SESSION['userid'] )){
+echo "
+	<li><a href='index.php'>Food cabin</a></li>
+	<li><a href='aboutus.php'>About Us</a></li>
+	<li style='float: right'><a href='basket.php'>Smart Basket</a></li>
+";
+}else {
+
+echo"
+	<li><a href='index.php'>Food cabin</a></li>
+	<li><a href='aboutus.php'>About Us</a></li>
+	<li style='float: right'><a href='basket.php'>Smart Basket</a></li>
+	
+";
+}
+?>
+
+</ul>
+</div>
+<!-- <div id="content"> -->

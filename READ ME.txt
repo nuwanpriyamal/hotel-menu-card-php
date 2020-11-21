@@ -1,0 +1,8 @@
+enable sql server
+create database Using this name : HASH
+It has no passwords
+After that import HASH.sql dource file in your file to that HASH database,
+Now completed.
+To open web page 
+       enable APACHE server 
+       and go browser and type localhost/hash
